@@ -2,8 +2,7 @@
 
 PCB schematics and micro-controller code for a version of the scoring apparatus used in competitive fencing and a compatible remote control.
 
-Example completed boxes:
-![Completed JBox and IBox](docs/boxes.jpg)
+![Completed JBox and IBox](doc/boxes.jpg)
 
 [Original SourceForge Project](https://sourceforge.net/projects/fencingbox/)
 

@@ -1,0 +1,151 @@
+<ui version="4.0" >
+ <class>SignalBox</class>
+ <widget class="QWidget" name="SignalBox" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>585</width>
+    <height>320</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" >
+   <item>
+    <widget class="QGroupBox" name="messageSelectGroup" >
+     <property name="toolTip" >
+      <string>Select types of messages to view</string>
+     </property>
+     <property name="title" >
+      <string>Messages</string>
+     </property>
+     <layout class="QHBoxLayout" >
+      <item>
+       <layout class="QHBoxLayout" >
+        <item>
+         <layout class="QVBoxLayout" >
+          <item>
+           <widget class="QCheckBox" name="timingErrorMessage" >
+            <property name="toolTip" >
+             <string>Display messages regarding timing errors</string>
+            </property>
+            <property name="text" >
+             <string>Timing Errors</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="scoreUpdateMessages" >
+            <property name="toolTip" >
+             <string>Messages regarding score management</string>
+            </property>
+            <property name="text" >
+             <string>Score Updates</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="clockMessages" >
+            <property name="toolTip" >
+             <string>Messages relating to clock management</string>
+            </property>
+            <property name="text" >
+             <string>Clock</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="cardCheck" >
+            <property name="toolTip" >
+             <string>Messages regarding card and priority management</string>
+            </property>
+            <property name="text" >
+             <string>Cards/Priority</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="remoteCheck" >
+            <property name="text" >
+             <string>Remote</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="lightCheck" >
+            <property name="toolTip" >
+             <string>Light management messages</string>
+            </property>
+            <property name="text" >
+             <string>Lights</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="weaponCheck" >
+            <property name="toolTip" >
+             <string>Messages regarding weapon changes</string>
+            </property>
+            <property name="text" >
+             <string>Weapon</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="periodCheck" >
+            <property name="toolTip" >
+             <string>Messages regarding period management</string>
+            </property>
+            <property name="text" >
+             <string>Period</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="pcCheck" >
+            <property name="toolTip" >
+             <string>Messages sent by and returned to PC</string>
+            </property>
+            <property name="text" >
+             <string>Computer</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="checkBox" >
+            <property name="text" >
+             <string>Timer Updates</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="otherCheck" >
+            <property name="toolTip" >
+             <string>Any messages that don't fit into one of the above categories</string>
+            </property>
+            <property name="text" >
+             <string>Other</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="messageViewer" >
+          <property name="readOnly" >
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

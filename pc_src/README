@@ -1,0 +1,14 @@
+JBox PC Interface
+
+The JBox PC Interface will provide a means to communicate
+with and alter the settings stored in an IBox/JBox's eeprom
+memory.
+
+At present this software is in an unusable state, and has primarily been
+designed as a prototype to model potential functionality.
+
+To make MinGW and Qt 4.3.4 must be installed
+use the following commands in the pc_src directory
+% qmake
+% make release
+

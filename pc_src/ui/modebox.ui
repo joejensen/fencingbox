@@ -1,0 +1,562 @@
+<ui version="4.0" >
+ <author></author>
+ <comment></comment>
+ <exportmacro></exportmacro>
+ <class>ModeBox</class>
+ <widget class="QWidget" name="ModeBox" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>672</width>
+    <height>228</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Mode Settings</string>
+  </property>
+  <layout class="QHBoxLayout" >
+   <property name="margin" >
+    <number>9</number>
+   </property>
+   <property name="spacing" >
+    <number>6</number>
+   </property>
+   <item>
+    <widget class="QGroupBox" name="groupBox" >
+     <property name="title" >
+      <string>General</string>
+     </property>
+     <layout class="QVBoxLayout" >
+      <property name="margin" >
+       <number>9</number>
+      </property>
+      <property name="spacing" >
+       <number>6</number>
+      </property>
+      <item>
+       <widget class="QGroupBox" name="autoRearm" >
+        <property name="toolTip" >
+         <string>Should the machine rearm automatically or manually?</string>
+        </property>
+        <property name="title" >
+         <string>Auto Rearm</string>
+        </property>
+        <property name="checkable" >
+         <bool>true</bool>
+        </property>
+        <property name="checked" >
+         <bool>true</bool>
+        </property>
+        <layout class="QHBoxLayout" >
+         <property name="margin" >
+          <number>9</number>
+         </property>
+         <property name="spacing" >
+          <number>6</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="label" >
+           <property name="text" >
+            <string>Re-Arm Delay:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QDoubleSpinBox" name="rearmTime" >
+           <property name="toolTip" >
+            <string>Time to delay before rearming</string>
+           </property>
+           <property name="suffix" >
+            <string>ms</string>
+           </property>
+           <property name="decimals" >
+            <number>1</number>
+           </property>
+           <property name="maximum" >
+            <double>1000</double>
+           </property>
+           <property name="minimum" >
+            <double>0.3</double>
+           </property>
+           <property name="singleStep" >
+            <double>0.3</double>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="buzzer" >
+        <property name="toolTip" >
+         <string>Should we use or mute the buzzer?</string>
+        </property>
+        <property name="title" >
+         <string>Buzzer</string>
+        </property>
+        <property name="checkable" >
+         <bool>true</bool>
+        </property>
+        <property name="checked" >
+         <bool>true</bool>
+        </property>
+        <layout class="QHBoxLayout" >
+         <property name="margin" >
+          <number>9</number>
+         </property>
+         <property name="spacing" >
+          <number>6</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="label_2" >
+           <property name="text" >
+            <string>Buzzer Reset:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QDoubleSpinBox" name="buzzTime" >
+           <property name="toolTip" >
+            <string>Time to Buzz after a touch</string>
+           </property>
+           <property name="suffix" >
+            <string>ms</string>
+           </property>
+           <property name="decimals" >
+            <number>1</number>
+           </property>
+           <property name="maximum" >
+            <double>1000</double>
+           </property>
+           <property name="minimum" >
+            <double>0.3</double>
+           </property>
+           <property name="singleStep" >
+            <double>0.3</double>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" >
+        <property name="margin" >
+         <number>0</number>
+        </property>
+        <property name="spacing" >
+         <number>6</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="label_7" >
+          <property name="text" >
+           <string>Periods:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QSpinBox" name="periods" >
+          <property name="toolTip" >
+           <string>Number of periods in a match</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="groupBox_4" >
+     <property name="title" >
+      <string>Standard Period</string>
+     </property>
+     <layout class="QVBoxLayout" >
+      <property name="margin" >
+       <number>9</number>
+      </property>
+      <property name="spacing" >
+       <number>6</number>
+      </property>
+      <item>
+       <widget class="QGroupBox" name="periodTimed" >
+        <property name="toolTip" >
+         <string>Should periods be timed?</string>
+        </property>
+        <property name="title" >
+         <string>Timer</string>
+        </property>
+        <property name="checkable" >
+         <bool>true</bool>
+        </property>
+        <layout class="QHBoxLayout" >
+         <property name="margin" >
+          <number>9</number>
+         </property>
+         <property name="spacing" >
+          <number>6</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="label_3" >
+           <property name="text" >
+            <string>Time Limit:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QTimeEdit" name="periodTime" >
+           <property name="font" >
+            <font>
+             <family>MS Shell Dlg</family>
+             <pointsize>8</pointsize>
+             <weight>50</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+             <underline>false</underline>
+             <strikeout>false</strikeout>
+            </font>
+           </property>
+           <property name="toolTip" >
+            <string>Time remaining in the current period</string>
+           </property>
+           <property name="readOnly" >
+            <bool>false</bool>
+           </property>
+           <property name="time" >
+            <time>
+             <hour>0</hour>
+             <minute>3</minute>
+             <second>0</second>
+            </time>
+           </property>
+           <property name="maximumTime" >
+            <time>
+             <hour>0</hour>
+             <minute>9</minute>
+             <second>59</second>
+            </time>
+           </property>
+           <property name="currentSection" >
+            <enum>QDateTimeEdit::MinuteSection</enum>
+           </property>
+           <property name="displayFormat" >
+            <string>m:ss</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="periodScoreLimited" >
+        <property name="toolTip" >
+         <string>Should there be a score limit?</string>
+        </property>
+        <property name="title" >
+         <string>Score Limit</string>
+        </property>
+        <property name="checkable" >
+         <bool>true</bool>
+        </property>
+        <layout class="QVBoxLayout" >
+         <property name="margin" >
+          <number>9</number>
+         </property>
+         <property name="spacing" >
+          <number>6</number>
+         </property>
+         <item>
+          <layout class="QHBoxLayout" >
+           <property name="margin" >
+            <number>0</number>
+           </property>
+           <property name="spacing" >
+            <number>6</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="label_4" >
+             <property name="text" >
+              <string>Score Limit:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QSpinBox" name="periodScoreLimit" >
+             <property name="toolTip" >
+              <string>Number of touches to allow in the period?</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="cumulative" >
+           <property name="toolTip" >
+            <string>Should we allow the trailing fencer to catch up?</string>
+           </property>
+           <property name="text" >
+            <string>Cumulative</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="breaks" >
+     <property name="toolTip" >
+      <string>Should there be a break between each period?</string>
+     </property>
+     <property name="title" >
+      <string>Breaks</string>
+     </property>
+     <property name="checkable" >
+      <bool>true</bool>
+     </property>
+     <layout class="QVBoxLayout" >
+      <property name="margin" >
+       <number>9</number>
+      </property>
+      <property name="spacing" >
+       <number>6</number>
+      </property>
+      <item>
+       <widget class="QGroupBox" name="breakTimed" >
+        <property name="toolTip" >
+         <string>Should breaks be timed?</string>
+        </property>
+        <property name="title" >
+         <string>Timer</string>
+        </property>
+        <property name="checkable" >
+         <bool>true</bool>
+        </property>
+        <layout class="QHBoxLayout" >
+         <property name="margin" >
+          <number>9</number>
+         </property>
+         <property name="spacing" >
+          <number>6</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="label_8" >
+           <property name="text" >
+            <string>Time Limit:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QTimeEdit" name="breakTime" >
+           <property name="font" >
+            <font>
+             <family>MS Shell Dlg</family>
+             <pointsize>8</pointsize>
+             <weight>50</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+             <underline>false</underline>
+             <strikeout>false</strikeout>
+            </font>
+           </property>
+           <property name="toolTip" >
+            <string>Time remaining in the current period</string>
+           </property>
+           <property name="readOnly" >
+            <bool>false</bool>
+           </property>
+           <property name="time" >
+            <time>
+             <hour>0</hour>
+             <minute>3</minute>
+             <second>0</second>
+            </time>
+           </property>
+           <property name="maximumTime" >
+            <time>
+             <hour>0</hour>
+             <minute>9</minute>
+             <second>59</second>
+            </time>
+           </property>
+           <property name="currentSection" >
+            <enum>QDateTimeEdit::MinuteSection</enum>
+           </property>
+           <property name="displayFormat" >
+            <string>m:ss</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="otBreak" >
+        <property name="toolTip" >
+         <string>Should there be a break between the last period and OT period?</string>
+        </property>
+        <property name="text" >
+         <string>OT Period Break</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer>
+        <property name="orientation" >
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" >
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="groupBox_5" >
+     <property name="title" >
+      <string>OT Period</string>
+     </property>
+     <layout class="QVBoxLayout" >
+      <property name="margin" >
+       <number>9</number>
+      </property>
+      <property name="spacing" >
+       <number>6</number>
+      </property>
+      <item>
+       <widget class="QGroupBox" name="otTimed" >
+        <property name="toolTip" >
+         <string>Should the OT period be timed?</string>
+        </property>
+        <property name="title" >
+         <string>Timer</string>
+        </property>
+        <property name="checkable" >
+         <bool>true</bool>
+        </property>
+        <layout class="QHBoxLayout" >
+         <property name="margin" >
+          <number>9</number>
+         </property>
+         <property name="spacing" >
+          <number>6</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="label_6" >
+           <property name="text" >
+            <string>Time Limit:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QTimeEdit" name="otTime" >
+           <property name="font" >
+            <font>
+             <family>MS Shell Dlg</family>
+             <pointsize>8</pointsize>
+             <weight>50</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+             <underline>false</underline>
+             <strikeout>false</strikeout>
+            </font>
+           </property>
+           <property name="toolTip" >
+            <string>Time remaining in the current period</string>
+           </property>
+           <property name="readOnly" >
+            <bool>false</bool>
+           </property>
+           <property name="time" >
+            <time>
+             <hour>0</hour>
+             <minute>3</minute>
+             <second>0</second>
+            </time>
+           </property>
+           <property name="maximumTime" >
+            <time>
+             <hour>0</hour>
+             <minute>9</minute>
+             <second>59</second>
+            </time>
+           </property>
+           <property name="currentSection" >
+            <enum>QDateTimeEdit::MinuteSection</enum>
+           </property>
+           <property name="displayFormat" >
+            <string>m:ss</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="otScoreLimited" >
+        <property name="toolTip" >
+         <string>Should there be a score limit in the overtime period?</string>
+        </property>
+        <property name="title" >
+         <string>Score Limit</string>
+        </property>
+        <property name="checkable" >
+         <bool>true</bool>
+        </property>
+        <layout class="QVBoxLayout" >
+         <property name="margin" >
+          <number>9</number>
+         </property>
+         <property name="spacing" >
+          <number>6</number>
+         </property>
+         <item>
+          <layout class="QHBoxLayout" >
+           <property name="margin" >
+            <number>0</number>
+           </property>
+           <property name="spacing" >
+            <number>6</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="label_5" >
+             <property name="text" >
+              <string>Score Limit:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QSpinBox" name="otScoreLimit" />
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="autoPriority" >
+        <property name="toolTip" >
+         <string>Should priority be determined automatically?</string>
+        </property>
+        <property name="text" >
+         <string>Auto Priority</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <pixmapfunction></pixmapfunction>
+ <resources/>
+ <connections/>
+</ui>

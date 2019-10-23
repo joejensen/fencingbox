@@ -1,0 +1,40 @@
+JBox/IBox Firmware
+
+This folder contains the source code and project files of the firmware
+used in the microcontrollers in the JBox Project.  There are 4 included
+projects.
+
+The timings in all these chips is extremely sensitive and caution 
+should be used in making any changes.  Unfortunately, the current method
+of confirming timings is connection to a DSO and measuring the time between
+"probing" pulses under varying scenarios.  A means of automated testing is
+getting high on my priority list.
+
+Display Firmware - Microcontroller responsible for lights used to indicate
+time remaining in a period, current score, current period, cards, priority,
+etc.
+
+Fencing Firmware - Firmware responsible for timing all events taking place with the weapons/fencers/piste, as well as the scoring lights and buzzer.  In the IBox this chip also detects the weapon select button's depression.
+
+Receiver Firmware - This microcontroller parses all input from the user.  Primarilt IR communication from the remote control.  In the JBox this chip manages input from the weapon select switch.
+
+Remote Firmware - This controller is used in the JBox Remote control to
+generate RC5 pulse patterns to give commands to the box.
+
+These projects are all written in BoostC produced by SourceBoost.
+While I would prefer to use an open source solution for writing this code
+assembly would be too drawn out for all but specific places, and none
+of the open source compilers available for the PIC14 architecture (ie sdcc) 
+are capable of the optimizations needed for this project.  We would be happy to learn of any that have been overlooked.
+
+To compile this project open the appropriate project file( .__c) 
+in sourceboost.  Compiling will generate a hex file to bw written
+to the microcontroller.
+
+Programming of the microntrollers for testing or personal use can be easily
+and cheaply accomplished with the PICkit 2 avaiable from Microchip for less
+than $50.  Of course if you're building a box you can easily build your own
+PIC programmer as well, we recommend http://feng3.cool.ne.jp/en/pg5v2.html 
+assuming your serial port can source enough current(ie few laptops can 
+use this programmer).  For home-made programmers we recommend the free
+IC-Prog programmer software.

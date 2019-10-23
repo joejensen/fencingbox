@@ -1,0 +1,489 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.4	//
+ADEN	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	118;"	d
+BITS	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	49;"	d
+BOTTOM	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	56;"	d
+BOTTOM_LEFT	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	57;"	d
+BOTTOM_RIGHT	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	58;"	d
+BOX_FRAMING_ERROR	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	185;"	d
+BOX_OVERRUN_ERROR	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	186;"	d
+BRG	C:\Users\Joe\Desktop\fencingbox\uc_src\.\usart.h	37;"	d
+BRGH	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	164;"	d
+C	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	67;"	d
+C1INV	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	127;"	d
+C1OUT	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	125;"	d
+C2INV	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	126;"	d
+C2OUT	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	124;"	d
+CCP1CON	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	40;"	d
+CCP1IE	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	148;"	d
+CCP1IF	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	84;"	d
+CCP1M0	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	111;"	d
+CCP1M1	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	110;"	d
+CCP1M2	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	109;"	d
+CCP1M3	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	108;"	d
+CCP1X	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	106;"	d
+CCP1Y	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	107;"	d
+CCPR1H	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	39;"	d
+CCPR1L	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	38;"	d
+CIS	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	128;"	d
+CM0	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	131;"	d
+CM1	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	130;"	d
+CM2	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	129;"	d
+CMCON	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	44;"	d
+CMIE	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	145;"	d
+CMIF	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	81;"	d
+COMMON_H_	C:\Users\Joe\Desktop\fencingbox\uc_src\common.h	33;"	d
+COM_CLOCK_SET_MIN	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	182;"	d
+COM_CLOCK_SET_SEC	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	183;"	d
+COM_CLOCK_START	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	141;"	d
+COM_CLOCK_STOP	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	142;"	d
+COM_CLOCK_TOGGLE	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	143;"	d
+COM_MIN_DEC	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	145;"	d
+COM_MIN_INC	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	144;"	d
+COM_MODE_SET	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	170;"	d
+COM_PERIOD_ADVANCE	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	166;"	d
+COM_PERIOD_REVERT	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	167;"	d
+COM_PRIORITY_AUTO	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	162;"	d
+COM_PRIORITY_GREEN	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	160;"	d
+COM_PRIORITY_NONE	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	163;"	d
+COM_PRIORITY_RED	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	161;"	d
+COM_REARM	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	174;"	d
+COM_REDCARD_GREEN	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	151;"	d
+COM_REDCARD_RED	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	150;"	d
+COM_RESET	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	173;"	d
+COM_SCORE_GREEN_DEC	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	138;"	d
+COM_SCORE_GREEN_INC	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	136;"	d
+COM_SCORE_GREEN_SET	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	181;"	d
+COM_SCORE_RED_DEC	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	137;"	d
+COM_SCORE_RED_INC	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	135;"	d
+COM_SCORE_RED_SET	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	180;"	d
+COM_SEC_DEC	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	147;"	d
+COM_SEC_INC	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	146;"	d
+COM_SET_WEAPON	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	178;"	d
+COM_TIMESCORE_TOGGLE	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	175;"	d
+COM_WITHDRAW_REDCARD_GREEN	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	153;"	d
+COM_WITHDRAW_REDCARD_RED	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	152;"	d
+COM_WITHDRAW_YELLOWCARD_GREEN	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	157;"	d
+COM_WITHDRAW_YELLOWCARD_RED	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	156;"	d
+COM_YELLOWCARD_GREEN	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	155;"	d
+COM_YELLOWCARD_RED	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	154;"	d
+CREN	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	117;"	d
+CSRC	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	160;"	d
+DC	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	66;"	d
+DISPLAY_H	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	33;"	d
+DISP_EXTENDER_H_	C:\Users\Joe\Desktop\fencingbox\uc_src\.\extender.h	33;"	d
+DISP_PRIOR_GREEN	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	101;"	d
+DISP_PRIOR_NONE	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	103;"	d
+DISP_PRIOR_RED	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	102;"	d
+EEADR	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	54;"	d
+EECON1	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	55;"	d
+EECON2	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	56;"	d
+EEDATA	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	53;"	d
+EEIE	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	144;"	d
+EEIF	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	80;"	d
+EEPROM_H_	C:\Users\Joe\Desktop\fencingbox\uc_src\eeprom.h	33;"	d
+EPEE_ANODE	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	79;"	d
+EPEE_CATHODE	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	78;"	d
+EPEE_CUSTOM_A	C:\Users\Joe\Desktop\fencingbox\uc_src\common.h	45;"	d
+EPEE_CUSTOM_B	C:\Users\Joe\Desktop\fencingbox\uc_src\common.h	46;"	d
+EPEE_CUSTOM_C	C:\Users\Joe\Desktop\fencingbox\uc_src\common.h	47;"	d
+EPEE_OLD	C:\Users\Joe\Desktop\fencingbox\uc_src\common.h	44;"	d
+F	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	20;"	d
+FENCE_CLOCK_STOP	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	95;"	d
+FENCE_GND_GREEN	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	94;"	d
+FENCE_GND_RED	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	93;"	d
+FENCE_OFF_GREEN	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	92;"	d
+FENCE_OFF_RED	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	91;"	d
+FENCE_TOUCH_GREEN	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	90;"	d
+FENCE_TOUCH_RED	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	89;"	d
+FERR	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	119;"	d
+FOIL_ANODE	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	77;"	d
+FOIL_CATHODE	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	76;"	d
+FOIL_CUSTOM_A	C:\Users\Joe\Desktop\fencingbox\uc_src\common.h	42;"	d
+FOIL_CUSTOM_B	C:\Users\Joe\Desktop\fencingbox\uc_src\common.h	43;"	d
+FOIL_OLD	C:\Users\Joe\Desktop\fencingbox\uc_src\common.h	40;"	d
+FOIL_T2005	C:\Users\Joe\Desktop\fencingbox\uc_src\common.h	41;"	d
+FSR	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	27;"	d
+GIE	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	70;"	d
+GREEN	C:\Users\Joe\Desktop\fencingbox\uc_src\common.h	37;"	d
+GREEN_PRIORITY	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	74;"	d
+GREEN_RED_CARD	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	73;"	d
+GREEN_SCORE_ONES	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	70;"	d
+GREEN_SCORE_TENS	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	71;"	d
+GREEN_YELLOW_CARD	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	72;"	d
+HIBYTE	C:\Program Files (x86)\SourceBoost\Include\boostc.h	47;"	d
+INDF	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	23;"	d
+INTCON	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	31;"	d
+INTE	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	73;"	d
+INTEDG	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	135;"	d
+INTF	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	76;"	d
+IRP	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	60;"	d
+LOBYTE	C:\Program Files (x86)\SourceBoost\Include\boostc.h	40;"	d
+MAKESHORT	C:\Program Files (x86)\SourceBoost\Include\boostc.h	33;"	d
+MAX_MODE	C:\Users\Joe\Desktop\fencingbox\uc_src\common.h	69;"	d
+MAX_PERIOD	C:\Users\Joe\Desktop\fencingbox\uc_src\common.h	60;"	d
+MAX_PHASE	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	52;"	d
+MAX_WEAPON	C:\Users\Joe\Desktop\fencingbox\uc_src\common.h	52;"	d
+MESSAGES_H_	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	34;"	d
+MIDDLE	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	59;"	d
+MODE_1	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	123;"	d
+MODE_2	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	124;"	d
+MODE_3	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	125;"	d
+MODE_4	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	126;"	d
+MODE_5	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	127;"	d
+MODE_6	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	128;"	d
+MODE_7	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	129;"	d
+MODE_CUSTOM	C:\Users\Joe\Desktop\fencingbox\uc_src\common.h	68;"	d
+MODE_DISPLAY_TIME	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	94;"	d
+MODE_DISP_EPEE_VAL	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	167;"	d
+MODE_DISP_FOIL_VAL	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	166;"	d
+MODE_DISP_SABRE_VAL	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	168;"	d
+MODE_HALF_M_VAL	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	169;"	d
+MODE_LEFT_T_VAL	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	170;"	d
+MODE_PRACTICE	C:\Users\Joe\Desktop\fencingbox\uc_src\common.h	67;"	d
+MODE_REARM_DE	C:\Users\Joe\Desktop\fencingbox\uc_src\common.h	65;"	d
+MODE_REARM_POOL	C:\Users\Joe\Desktop\fencingbox\uc_src\common.h	66;"	d
+MODE_RIGHT_T_VAL	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	171;"	d
+MODE_STANDARD_DE	C:\Users\Joe\Desktop\fencingbox\uc_src\common.h	63;"	d
+MODE_STANDARD_POOL	C:\Users\Joe\Desktop\fencingbox\uc_src\common.h	64;"	d
+NOT_BO	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	155;"	d
+NOT_BOD	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	157;"	d
+NOT_BOR	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	156;"	d
+NOT_PD	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	64;"	d
+NOT_POR	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	154;"	d
+NOT_RBPU	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	134;"	d
+NOT_T1SYNC	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	92;"	d
+NOT_TO	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	63;"	d
+NULL	C:\Program Files (x86)\SourceBoost\Include\boostc.h	18;"	d
+OERR	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	120;"	d
+OPTION_REG	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	45;"	d
+OSCF	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	153;"	d
+PCL	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	25;"	d
+PCLATH	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	30;"	d
+PCON	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	49;"	d
+PEIE	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	71;"	d
+PERIOD_EXTRA	C:\Users\Joe\Desktop\fencingbox\uc_src\common.h	59;"	d
+PERIOD_FIRST	C:\Users\Joe\Desktop\fencingbox\uc_src\common.h	56;"	d
+PERIOD_NONE	C:\Users\Joe\Desktop\fencingbox\uc_src\common.h	55;"	d
+PERIOD_ONE	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	83;"	d
+PERIOD_OT	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	86;"	d
+PERIOD_SECOND	C:\Users\Joe\Desktop\fencingbox\uc_src\common.h	57;"	d
+PERIOD_THIRD	C:\Users\Joe\Desktop\fencingbox\uc_src\common.h	58;"	d
+PERIOD_THREE	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	85;"	d
+PERIOD_TWO	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	84;"	d
+PIE1	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	48;"	d
+PIR1	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	32;"	d
+PORTA	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	28;"	d
+PORTB	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	29;"	d
+PR2	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	50;"	d
+PS0	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	141;"	d
+PS1	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	140;"	d
+PS2	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	139;"	d
+PSA	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	138;"	d
+RBIE	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	74;"	d
+RBIF	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	77;"	d
+RCIE	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	146;"	d
+RCIF	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	82;"	d
+RCREG	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	43;"	d
+RCSTA	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	41;"	d
+RD	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	172;"	d
+RED	C:\Users\Joe\Desktop\fencingbox\uc_src\common.h	36;"	d
+RED_PRIORITY	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	68;"	d
+RED_RED_CARD	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	67;"	d
+RED_SCORE_ONES	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	64;"	d
+RED_SCORE_TENS	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	65;"	d
+RED_YELLOW_CARD	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	66;"	d
+REM_CLOCK_START	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	46;"	d
+REM_CLOCK_STOP	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	47;"	d
+REM_CLOCK_TOGGLE	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	48;"	d
+REM_MIN_DEC	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	50;"	d
+REM_MIN_INC	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	49;"	d
+REM_MODE_ADVANCE	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	75;"	d
+REM_PERIOD_ADVANCE	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	71;"	d
+REM_PERIOD_REVERT	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	72;"	d
+REM_PRIORITY_AUTO	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	67;"	d
+REM_PRIORITY_GREEN	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	65;"	d
+REM_PRIORITY_NONE	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	68;"	d
+REM_PRIORITY_RED	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	66;"	d
+REM_REARM	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	79;"	d
+REM_REDCARD_GREEN	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	56;"	d
+REM_REDCARD_RED	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	55;"	d
+REM_RESET	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	78;"	d
+REM_SCORE_GREEN_DEC	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	43;"	d
+REM_SCORE_GREEN_INC	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	41;"	d
+REM_SCORE_RED_DEC	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	42;"	d
+REM_SCORE_RED_INC	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	40;"	d
+REM_SEC_DEC	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	52;"	d
+REM_SEC_INC	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	51;"	d
+REM_TIMESCORE_TOGGLE	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	80;"	d
+REM_WEAPON_ADVANCE	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	83;"	d
+REM_WITHDRAW_REDCARD_GREEN	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	58;"	d
+REM_WITHDRAW_REDCARD_RED	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	57;"	d
+REM_WITHDRAW_YELLOWCARD_GREEN	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	62;"	d
+REM_WITHDRAW_YELLOWCARD_RED	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	61;"	d
+REM_YELLOWCARD_GREEN	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	60;"	d
+REM_YELLOWCARD_RED	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	59;"	d
+RP0	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	62;"	d
+RP1	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	61;"	d
+RX9	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	115;"	d
+RX9D	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	121;"	d
+SABER_ANODE	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	81;"	d
+SABER_CATHODE	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	80;"	d
+SABER_CUSTOM_A	C:\Users\Joe\Desktop\fencingbox\uc_src\common.h	50;"	d
+SABER_CUSTOM_B	C:\Users\Joe\Desktop\fencingbox\uc_src\common.h	51;"	d
+SABER_OLD	C:\Users\Joe\Desktop\fencingbox\uc_src\common.h	48;"	d
+SABER_T2005	C:\Users\Joe\Desktop\fencingbox\uc_src\common.h	49;"	d
+SECOND_TICKS	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	51;"	d
+SERIAL_BUFSIZE	C:\Users\Joe\Desktop\fencingbox\uc_src\.\usart.h	43;"	d
+SERIAL_EOP	C:\Users\Joe\Desktop\fencingbox\uc_src\.\usart.h	41;"	d
+SERIAL_ESC	C:\Users\Joe\Desktop\fencingbox\uc_src\.\usart.h	42;"	d
+SERIAL_PRE	C:\Users\Joe\Desktop\fencingbox\uc_src\.\usart.h	40;"	d
+SPBRG	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	52;"	d
+SPEN	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	114;"	d
+SREN	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	116;"	d
+STATE_WEAPON_EPEE_A	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	118;"	d
+STATE_WEAPON_EPEE_B	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	119;"	d
+STATE_WEAPON_EPEE_C	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	120;"	d
+STATE_WEAPON_EPEE_T2005	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	117;"	d
+STATE_WEAPON_FOIL_A	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	111;"	d
+STATE_WEAPON_FOIL_B	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	112;"	d
+STATE_WEAPON_FOIL_OLD	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	109;"	d
+STATE_WEAPON_FOIL_T2005	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	110;"	d
+STATE_WEAPON_SABER_A	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	115;"	d
+STATE_WEAPON_SABER_B	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	116;"	d
+STATE_WEAPON_SABER_OLD	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	113;"	d
+STATE_WEAPON_SABER_T2005	C:\Users\Joe\Desktop\fencingbox\uc_src\.\messages.h	114;"	d
+STATUS	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	26;"	d
+SYNC	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	163;"	d
+T0CS	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	136;"	d
+T0IE	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	72;"	d
+T0IF	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	75;"	d
+T0SE	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	137;"	d
+T1CKPS0	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	90;"	d
+T1CKPS1	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	89;"	d
+T1CON	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	35;"	d
+T1OSCEN	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	91;"	d
+T2CKPS0	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	103;"	d
+T2CKPS1	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	102;"	d
+T2CON	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	37;"	d
+TIMER_COLON	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	88;"	d
+TIMER_MINUTES	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	91;"	d
+TIMER_SECONDS_ONES	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	89;"	d
+TIMER_SECONDS_TENS	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	90;"	d
+TIMING_RESOLUTION	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	50;"	d
+TMR0	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	24;"	d
+TMR1CS	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	93;"	d
+TMR1H	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	34;"	d
+TMR1IE	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	150;"	d
+TMR1IF	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	86;"	d
+TMR1L	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	33;"	d
+TMR1ON	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	94;"	d
+TMR2	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	36;"	d
+TMR2IE	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	149;"	d
+TMR2IF	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	85;"	d
+TMR2ON	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	101;"	d
+TOP	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	62;"	d
+TOP_LEFT	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	60;"	d
+TOP_RIGHT	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	61;"	d
+TOUTPS0	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	100;"	d
+TOUTPS1	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	99;"	d
+TOUTPS2	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	98;"	d
+TOUTPS3	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	97;"	d
+TRISA	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	46;"	d
+TRISB	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	47;"	d
+TRMT	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	165;"	d
+TX9	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	161;"	d
+TX9D	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	166;"	d
+TXEN	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	162;"	d
+TXIE	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	147;"	d
+TXIF	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	83;"	d
+TXREG	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	42;"	d
+TXSTA	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	51;"	d
+USART_H_	C:\Users\Joe\Desktop\fencingbox\uc_src\.\usart.h	33;"	d
+VR0	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	181;"	d
+VR1	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	180;"	d
+VR2	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	179;"	d
+VR3	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	178;"	d
+VRCON	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	57;"	d
+VREN	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	175;"	d
+VROE	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	176;"	d
+VRR	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	177;"	d
+W	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	19;"	d
+WEAPON_DISPLAY_TIME	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	95;"	d
+WR	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	171;"	d
+WREN	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	170;"	d
+WRERR	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	169;"	d
+Z	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	65;"	d
+_BODEN_OFF	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	190;"	d
+_BODEN_ON	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	189;"	d
+_BOOSTC_H_	C:\Program Files (x86)\SourceBoost\Include\boostc.h	14;"	d
+_BOREN_OFF	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	192;"	d
+_BOREN_ON	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	191;"	d
+_CONFIG	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	221;"	d
+_CP_OFF	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	194;"	d
+_CP_ON	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	193;"	d
+_DATA_CP_OFF	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	196;"	d
+_DATA_CP_ON	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	195;"	d
+_EEPROM	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	228;"	d
+_ER_OSC_CLKOUT	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	207;"	d
+_ER_OSC_NOCLKOUT	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	208;"	d
+_EXTCLK_OSC	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	213;"	d
+_HS_OSC	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	214;"	d
+_INTOSC_OSC_CLKOUT	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	209;"	d
+_INTOSC_OSC_NOCLKOUT	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	210;"	d
+_INTRC_OSC_CLKOUT	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	211;"	d
+_INTRC_OSC_NOCLKOUT	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	212;"	d
+_LP_OSC	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	216;"	d
+_LVP_OFF	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	202;"	d
+_LVP_ON	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	201;"	d
+_MCLRE_OFF	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	204;"	d
+_MCLRE_ON	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	203;"	d
+_PIC16F648A_H_	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	11;"	d
+_PWRTE_OFF	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	197;"	d
+_PWRTE_ON	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	198;"	d
+_RC_OSC_CLKOUT	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	205;"	d
+_RC_OSC_NOCLKOUT	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	206;"	d
+_SYSTEM_H_	C:\Program Files (x86)\SourceBoost\Include\system.h	10;"	d
+_WDT_OFF	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	200;"	d
+_WDT_ON	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	199;"	d
+_XT_OSC	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	215;"	d
+abs	C:\Program Files (x86)\SourceBoost\Include\boostc.h	29;"	d
+advanceMode	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.c	1202;"	f
+advancePeriod	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.c	1015;"	f
+blinkOn	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	127;"	v
+blinkTimer	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	122;"	v
+buffer	C:\Users\Joe\Desktop\fencingbox\uc_src\.\usart.c	35;"	v
+bufferPointer	C:\Users\Joe\Desktop\fencingbox\uc_src\.\usart.c	36;"	v
+ccp1con	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	247;"	v
+ccpr1h	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	246;"	v
+ccpr1l	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	245;"	v
+clear_bit	C:\Program Files (x86)\SourceBoost\Include\boostc.h	22;"	d
+clear_wdt	C:\Program Files (x86)\SourceBoost\Include\boostc.h	67;"	f
+clockExpired	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.c	903;"	f
+clock_expired	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	46;"	v
+clock_expired_tris	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	45;"	v
+clock_int	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	100;"	v
+cmcon	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	251;"	v
+currMode	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	177;"	v
+customMode	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	183;"	v
+data	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	42;"	v
+data_tris	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	39;"	v
+de1Mode	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	180;"	v
+deMode	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	178;"	v
+decrementMinutes	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.c	863;"	f
+decrementScore	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.c	715;"	f
+decrementSeconds	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.c	831;"	f
+display	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.c	271;"	f
+eeadr	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	261;"	v
+eecon1	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	262;"	v
+eecon2	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	263;"	v
+eedata	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	260;"	v
+eeprom_read	C:\Users\Joe\Desktop\fencingbox\uc_src\eeprom.c	38;"	f
+eeprom_write	C:\Users\Joe\Desktop\fencingbox\uc_src\eeprom.c	48;"	f
+extInit	C:\Users\Joe\Desktop\fencingbox\uc_src\.\extender.c	37;"	f
+extLoadBit	C:\Users\Joe\Desktop\fencingbox\uc_src\.\extender.c	118;"	f
+extLoadBitArray	C:\Users\Joe\Desktop\fencingbox\uc_src\.\extender.c	92;"	f
+extLoadByte	C:\Users\Joe\Desktop\fencingbox\uc_src\.\extender.c	53;"	f
+extLoadCharArray	C:\Users\Joe\Desktop\fencingbox\uc_src\.\extender.c	71;"	f
+extReset	C:\Users\Joe\Desktop\fencingbox\uc_src\.\extender.c	108;"	f
+fsr	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	234;"	v
+getC	C:\Users\Joe\Desktop\fencingbox\uc_src\.\usart.c	140;"	f
+haltClock	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.c	883;"	f
+inBreak	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	144;"	v
+incrementMinutes	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.c	819;"	f
+incrementScore	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.c	675;"	f
+incrementSeconds	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.c	795;"	f
+indf	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	230;"	v
+intcon	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	238;"	v
+interrupt	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.c	63;"	f
+latch_clock	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	44;"	v
+latch_clock_tris	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	41;"	v
+loadModes	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.c	1071;"	f
+main	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.c	378;"	f
+minute	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	124;"	v
+modeDisplay	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	174;"	v
+modeDisplayTimer	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	175;"	v
+modeNum	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	173;"	v
+nop	C:\Program Files (x86)\SourceBoost\Include\boostc.h	62;"	f
+option_reg	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	252;"	v
+pcl	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	232;"	v
+pclath	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	237;"	v
+pcon	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	256;"	v
+period	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	143;"	v
+periodTouches	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	157;"	v
+phase	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	99;"	v
+pie1	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	255;"	v
+pir1	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	239;"	v
+pool1Mode	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	181;"	v
+poolMode	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	179;"	v
+porta	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	235;"	v
+portb	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	236;"	v
+pr2	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	257;"	v
+practiceMode	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	182;"	v
+priorityAuto	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.c	661;"	f
+priorityGreen	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.c	655;"	f
+priorityNone	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.c	669;"	f
+priorityRed	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.c	649;"	f
+processMessages	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.c	77;"	f
+putC	C:\Users\Joe\Desktop\fencingbox\uc_src\.\usart.c	80;"	f
+putCHex	C:\Users\Joe\Desktop\fencingbox\uc_src\.\usart.c	106;"	f
+putS	C:\Users\Joe\Desktop\fencingbox\uc_src\.\usart.c	130;"	f
+rcreg	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	250;"	v
+rcsta	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	248;"	v
+redCardGreen	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.c	642;"	f
+redCardRed	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.c	635;"	f
+registers	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	55;"	v
+reset	C:\Program Files (x86)\SourceBoost\Include\boostc.h	80;"	f
+reset	C:\Program Files (x86)\SourceBoost\Include\boostc.h	88;"	f
+resetDisplay	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.c	446;"	f
+revertPeriod	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.c	965;"	f
+running	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	123;"	v
+safeGetC	C:\Users\Joe\Desktop\fencingbox\uc_src\.\usart.c	187;"	f
+safePutC	C:\Users\Joe\Desktop\fencingbox\uc_src\.\usart.c	173;"	f
+safeReceive	C:\Users\Joe\Desktop\fencingbox\uc_src\.\usart.c	195;"	f
+safeSend	C:\Users\Joe\Desktop\fencingbox\uc_src\.\usart.c	239;"	f
+score	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	153;"	v
+scoreOnes	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	154;"	v
+scoreTens	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	155;"	v
+secondOnes	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	125;"	v
+secondTens	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	126;"	v
+serialLF	C:\Users\Joe\Desktop\fencingbox\uc_src\.\usart.h	46;"	d
+serialPeek	C:\Users\Joe\Desktop\fencingbox\uc_src\.\usart.h	45;"	d
+serialSafeInit	C:\Users\Joe\Desktop\fencingbox\uc_src\.\usart.c	165;"	f
+setChar	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.c	476;"	f
+setTime	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.c	891;"	f
+set_bit	C:\Program Files (x86)\SourceBoost\Include\boostc.h	23;"	d
+shift_clock	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	43;"	v
+shift_clock_tris	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	40;"	v
+sleep	C:\Program Files (x86)\SourceBoost\Include\boostc.h	72;"	f
+spbrg	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	259;"	v
+startClock	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.c	875;"	f
+status	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	233;"	v
+t1con	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	242;"	v
+t2con	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	244;"	v
+test_bit	C:\Program Files (x86)\SourceBoost\Include\boostc.h	24;"	d
+timeSet	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	128;"	v
+timer	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	121;"	v
+tmr0	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	231;"	v
+tmr1h	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	241;"	v
+tmr1l	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	240;"	v
+tmr2	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	243;"	v
+toggle_bit	C:\Program Files (x86)\SourceBoost\Include\boostc.h	25;"	d
+trisa	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	253;"	v
+trisb	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	254;"	v
+txreg	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	249;"	v
+txsta	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	258;"	v
+updateClock	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.c	748;"	f
+updatePeriod	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.c	917;"	f
+updateWeapon	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.c	191;"	f
+usartErrorCheck	C:\Users\Joe\Desktop\fencingbox\uc_src\.\usart.c	288;"	f
+usartInit	C:\Users\Joe\Desktop\fencingbox\uc_src\.\usart.c	41;"	f
+victor	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	156;"	v
+vrcon	C:\Program Files (x86)\SourceBoost\Include\pic16F648A.h	264;"	v
+weapon	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.h	98;"	v
+yellowCardGreen	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.c	627;"	f
+yellowCardRed	C:\Users\Joe\Desktop\fencingbox\uc_src\Display.c	619;"	f

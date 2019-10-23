@@ -1,0 +1,258 @@
+<ui version="4.0" >
+ <author></author>
+ <comment></comment>
+ <exportmacro></exportmacro>
+ <class>SaberTimingBox</class>
+ <widget class="QWidget" name="SaberTimingBox" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>188</width>
+    <height>258</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>SaberTimingBox</string>
+  </property>
+  <layout class="QVBoxLayout" >
+   <property name="margin" >
+    <number>9</number>
+   </property>
+   <property name="spacing" >
+    <number>6</number>
+   </property>
+   <item>
+    <widget class="QGroupBox" name="generalGroup" >
+     <property name="toolTip" >
+      <string>General Timing Data</string>
+     </property>
+     <property name="whatsThis" >
+      <string>The basic timings that are required for all foil settings.</string>
+     </property>
+     <property name="title" >
+      <string>General</string>
+     </property>
+     <layout class="QGridLayout" >
+      <property name="margin" >
+       <number>9</number>
+      </property>
+      <property name="spacing" >
+       <number>6</number>
+      </property>
+      <item row="0" column="1" >
+       <widget class="QDoubleSpinBox" name="debounceTime" >
+        <property name="toolTip" >
+         <string>Contact time neccesary to land a touch</string>
+        </property>
+        <property name="whatsThis" >
+         <string>How long the tip must remain depressed in order to register a touch</string>
+        </property>
+        <property name="suffix" >
+         <string>ms</string>
+        </property>
+        <property name="decimals" >
+         <number>1</number>
+        </property>
+        <property name="maximum" >
+         <double>1000</double>
+        </property>
+        <property name="minimum" >
+         <double>0.3</double>
+        </property>
+        <property name="singleStep" >
+         <double>0.3</double>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1" >
+       <widget class="QDoubleSpinBox" name="lockoutTime" >
+        <property name="toolTip" >
+         <string>Time to lockout opponent</string>
+        </property>
+        <property name="whatsThis" >
+         <string>How much time to wait before locking the box after the first touch is landed</string>
+        </property>
+        <property name="suffix" >
+         <string>ms</string>
+        </property>
+        <property name="decimals" >
+         <number>1</number>
+        </property>
+        <property name="maximum" >
+         <double>1000</double>
+        </property>
+        <property name="minimum" >
+         <double>0.3</double>
+        </property>
+        <property name="singleStep" >
+         <double>0.3</double>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0" >
+       <widget class="QLabel" name="debounceLabel" >
+        <property name="focusPolicy" >
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text" >
+         <string>&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;/head>&lt;body style=" white-space: pre-wrap; font-family:MS Shell Dlg; font-size:8.25pt; font-weight:400; font-style:normal; text-decoration:none;">&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Contact&lt;span style=" font-size:8pt;">:&lt;/span>&lt;/p>&lt;/body>&lt;/html></string>
+        </property>
+        <property name="buddy" >
+         <cstring>debounceTime</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0" >
+       <widget class="QLabel" name="lockoutLabel" >
+        <property name="focusPolicy" >
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text" >
+         <string>Lockout:</string>
+        </property>
+        <property name="buddy" >
+         <cstring>lockoutTime</cstring>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="whipover" >
+     <property name="title" >
+      <string>Whipover Prevention</string>
+     </property>
+     <property name="checkable" >
+      <bool>true</bool>
+     </property>
+     <layout class="QGridLayout" >
+      <property name="margin" >
+       <number>9</number>
+      </property>
+      <property name="spacing" >
+       <number>6</number>
+      </property>
+      <item row="2" column="0" >
+       <widget class="QLabel" name="label" >
+        <property name="text" >
+         <string>Interrupts:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0" >
+       <widget class="QLabel" name="debounceLabel_2" >
+        <property name="focusPolicy" >
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text" >
+         <string>Register Period:
+</string>
+        </property>
+        <property name="buddy" >
+         <cstring>debounceTime</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1" >
+       <widget class="QSpinBox" name="interrupts" >
+        <property name="toolTip" >
+         <string>Balde Contact interruptions till we allow a touch</string>
+        </property>
+        <property name="whatsThis" >
+         <string>When blade contact is interrupted a certain number of times we can assum a whipover is not occurring</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1" >
+       <widget class="QDoubleSpinBox" name="ignorePeriod" >
+        <property name="toolTip" >
+         <string>Time after the register period we ignore touches</string>
+        </property>
+        <property name="whatsThis" >
+         <string>The period of time where we assum a whipover is occuring</string>
+        </property>
+        <property name="suffix" >
+         <string>ms</string>
+        </property>
+        <property name="decimals" >
+         <number>1</number>
+        </property>
+        <property name="maximum" >
+         <double>1000</double>
+        </property>
+        <property name="minimum" >
+         <double>0</double>
+        </property>
+        <property name="singleStep" >
+         <double>0.3</double>
+        </property>
+        <property name="value" >
+         <double>0</double>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1" >
+       <widget class="QDoubleSpinBox" name="registerPeriod" >
+        <property name="toolTip" >
+         <string>Period after Blade to Bade contact to allow a touch</string>
+        </property>
+        <property name="whatsThis" >
+         <string>After Blade on Blade contact we have a short period of time in order to land a touch before we assume a whipover is occuring</string>
+        </property>
+        <property name="suffix" >
+         <string>ms</string>
+        </property>
+        <property name="decimals" >
+         <number>1</number>
+        </property>
+        <property name="maximum" >
+         <double>1000</double>
+        </property>
+        <property name="minimum" >
+         <double>0</double>
+        </property>
+        <property name="singleStep" >
+         <double>0.3</double>
+        </property>
+        <property name="value" >
+         <double>0</double>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0" >
+       <widget class="QLabel" name="debounceLabel_3" >
+        <property name="focusPolicy" >
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text" >
+         <string>Ignore Period:</string>
+        </property>
+        <property name="buddy" >
+         <cstring>debounceTime</cstring>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <spacer>
+     <property name="orientation" >
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" >
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <pixmapfunction></pixmapfunction>
+ <resources/>
+ <connections/>
+</ui>

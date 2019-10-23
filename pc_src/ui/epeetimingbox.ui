@@ -1,0 +1,302 @@
+<ui version="4.0" >
+ <author></author>
+ <comment></comment>
+ <exportmacro></exportmacro>
+ <class>EpeeTimingBox</class>
+ <widget class="QWidget" name="EpeeTimingBox" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>188</width>
+    <height>306</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Epee Timing Box</string>
+  </property>
+  <layout class="QVBoxLayout" >
+   <property name="margin" >
+    <number>9</number>
+   </property>
+   <property name="spacing" >
+    <number>6</number>
+   </property>
+   <item>
+    <widget class="QGroupBox" name="generalGroup" >
+     <property name="toolTip" >
+      <string>General Timing Data</string>
+     </property>
+     <property name="whatsThis" >
+      <string>The basic timings that are required for all foil settings.</string>
+     </property>
+     <property name="title" >
+      <string>General</string>
+     </property>
+     <layout class="QGridLayout" >
+      <property name="margin" >
+       <number>9</number>
+      </property>
+      <property name="spacing" >
+       <number>6</number>
+      </property>
+      <item row="0" column="1" >
+       <widget class="QDoubleSpinBox" name="debounceTime" >
+        <property name="toolTip" >
+         <string>Time to land a touch</string>
+        </property>
+        <property name="whatsThis" >
+         <string>How long the tip must remain depressed in order to register a touch</string>
+        </property>
+        <property name="suffix" >
+         <string>ms</string>
+        </property>
+        <property name="decimals" >
+         <number>1</number>
+        </property>
+        <property name="maximum" >
+         <double>1000</double>
+        </property>
+        <property name="minimum" >
+         <double>0.3</double>
+        </property>
+        <property name="singleStep" >
+         <double>0.3</double>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1" >
+       <widget class="QDoubleSpinBox" name="lockoutTime" >
+        <property name="toolTip" >
+         <string>Time to lockout opponent</string>
+        </property>
+        <property name="whatsThis" >
+         <string>How much time to wait before locking the box after the first touch is landed</string>
+        </property>
+        <property name="suffix" >
+         <string>ms</string>
+        </property>
+        <property name="decimals" >
+         <number>1</number>
+        </property>
+        <property name="maximum" >
+         <double>1000</double>
+        </property>
+        <property name="minimum" >
+         <double>0.3</double>
+        </property>
+        <property name="singleStep" >
+         <double>0.3</double>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0" >
+       <widget class="QLabel" name="debounceLabel" >
+        <property name="focusPolicy" >
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text" >
+         <string>Contact:</string>
+        </property>
+        <property name="buddy" >
+         <cstring>debounceTime</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0" >
+       <widget class="QLabel" name="lockoutLabel" >
+        <property name="focusPolicy" >
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text" >
+         <string>Lockout:</string>
+        </property>
+        <property name="buddy" >
+         <cstring>lockoutTime</cstring>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="smoothing" >
+     <property name="toolTip" >
+      <string>Settings for smoothing out micro-breaks</string>
+     </property>
+     <property name="whatsThis" >
+      <string>Tells the box how to treat the timings when a microbreak occurs.  If not enabled the box resets the on and off-target timers at any microbreak.</string>
+     </property>
+     <property name="title" >
+      <string>Smoothing</string>
+     </property>
+     <property name="checkable" >
+      <bool>true</bool>
+     </property>
+     <property name="checked" >
+      <bool>false</bool>
+     </property>
+     <layout class="QGridLayout" >
+      <property name="margin" >
+       <number>9</number>
+      </property>
+      <property name="spacing" >
+       <number>6</number>
+      </property>
+      <item row="2" column="0" >
+       <widget class="QLabel" name="maxSpacingLabel" >
+        <property name="text" >
+         <string>Break Spacing:</string>
+        </property>
+        <property name="buddy" >
+         <cstring>breakSpacing</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1" >
+       <widget class="QDoubleSpinBox" name="timeExtension" >
+        <property name="toolTip" >
+         <string>Time to extend the timer on each Microbreak</string>
+        </property>
+        <property name="whatsThis" >
+         <string>should we extend the timer after each microbreak?</string>
+        </property>
+        <property name="suffix" >
+         <string>ms</string>
+        </property>
+        <property name="decimals" >
+         <number>1</number>
+        </property>
+        <property name="maximum" >
+         <double>1000</double>
+        </property>
+        <property name="minimum" >
+         <double>0</double>
+        </property>
+        <property name="singleStep" >
+         <double>0.3</double>
+        </property>
+        <property name="value" >
+         <double>0</double>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0" >
+       <widget class="QLabel" name="timeExtend" >
+        <property name="text" >
+         <string>Time Extension:</string>
+        </property>
+        <property name="buddy" >
+         <cstring>timeExtension</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0" >
+       <widget class="QLabel" name="breakLenLabel" >
+        <property name="text" >
+         <string>Break Length:</string>
+        </property>
+        <property name="buddy" >
+         <cstring>breakTime</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0" >
+       <widget class="QLabel" name="maxBreaksLabel" >
+        <property name="text" >
+         <string>Max Breaks:</string>
+        </property>
+        <property name="buddy" >
+         <cstring>maxBreaks</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1" >
+       <widget class="QDoubleSpinBox" name="breakTime" >
+        <property name="toolTip" >
+         <string>Maximum lengthof a micro-break</string>
+        </property>
+        <property name="whatsThis" >
+         <string>How long can a break last before we consider it no loner touching</string>
+        </property>
+        <property name="suffix" >
+         <string>ms</string>
+        </property>
+        <property name="decimals" >
+         <number>1</number>
+        </property>
+        <property name="maximum" >
+         <double>1000</double>
+        </property>
+        <property name="minimum" >
+         <double>0.3</double>
+        </property>
+        <property name="singleStep" >
+         <double>0.3</double>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1" >
+       <widget class="QDoubleSpinBox" name="breakSpacing" >
+        <property name="toolTip" >
+         <string>Minimum timer between breaks</string>
+        </property>
+        <property name="whatsThis" >
+         <string>Time that must be between breaks for us not to consider them micro-contacts</string>
+        </property>
+        <property name="suffix" >
+         <string>ms</string>
+        </property>
+        <property name="decimals" >
+         <number>1</number>
+        </property>
+        <property name="maximum" >
+         <double>1000</double>
+        </property>
+        <property name="minimum" >
+         <double>0.3</double>
+        </property>
+        <property name="singleStep" >
+         <double>0.3</double>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1" >
+       <widget class="QSpinBox" name="maxBreaks" >
+        <property name="toolTip" >
+         <string>How many breaks max?</string>
+        </property>
+        <property name="whatsThis" >
+         <string>ow me breaks we can allow before cancelling a timer?</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="autoIncrement" >
+     <property name="text" >
+      <string>AutoIncrement Score</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <spacer>
+     <property name="orientation" >
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" >
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <pixmapfunction></pixmapfunction>
+ <resources/>
+ <connections/>
+</ui>

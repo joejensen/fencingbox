@@ -1,0 +1,61 @@
+[Settings]
+Active Compiler=BoostC
+Target=PIC16F648A
+ClockRate=20000000
+Profiling=0
+Snapshot=0
+Type=0
+Warnings=1
+[Files]
+File0=Display.c
+Count=11
+File1=Display.h
+File2=.\extender.c
+File3=.\extender.h
+File4=.\usart.c
+File5=.\usart.h
+File6=.\messages.h
+File7=common.h
+File8=eeprom.h
+File9=eeprom.c
+File10=..\..\..\..\..\Program Files (x86)\SourceBoost\Lib\rand.pic16.lib
+File11=..\..\..\..\..\..\Program Files\SourceBoost\Lib\rand.pic16.lib
+File12=periods.c
+File13=mode.c
+File14=score.c
+File15=score.c
+File16=score.c
+File17=score.c
+File18=score.c
+File19=score.c
+[Debugger]
+DebugFromMain=1
+[Plugins]
+Button=776561706F6E00506F727442000000000001000000
+Speed Tester=6B094201040000004E6F6E65
+Led Block=506F727444000000000000000000
+Led=706F72746200000000000000000000000000
+Button Block=506F72744100000000000000000001000000
+Bcd=706F727462000000000000000000
+7 Segment LED=00040000007F00000000000000000000000000000000000352413000000000000000000352413100000000000000000352413200000000000000000352413300000000000000000000000000000000000000000000000000000000000000000000000003524230035242310352423203524233035242340352423503524236035242370003526564FF191900
+[Bookmarks]
+Count=0
+[Breakpoints]
+Count=0
+[Watch]
+Count=0
+[Watchpoint]
+Count=0
+[Register]
+Core=1
+Ports=1
+Interrupt=1
+Eeprom=1
+Misc=1
+[Compiler]
+Extra=
+[Linker]
+Extra=
+[Tools]
+BoostDir=C:\Program Files (x86)\SourceBoost
+Programmer=C:\icprog\icprog.exe -l%name%.hex -f16f628a -p -q -i -v

@@ -1,0 +1,424 @@
+EESchema Schematic File Version 2
+LIBS:power,device,transistors,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves,.\Jbox.cache
+EELAYER 24  0
+EELAYER END
+$Descr A4 11700 8267
+Sheet 6 9
+Title ""
+Date "18 aug 2008"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	3350 2650 2700 2650
+Wire Wire Line
+	8250 2600 7700 2600
+Wire Wire Line
+	8550 2100 3650 2100
+Connection ~ 6450 5250
+Connection ~ 6450 5950
+Wire Wire Line
+	6250 2450 6250 1800
+Connection ~ 3650 5600
+Connection ~ 3250 5600
+Wire Wire Line
+	2950 5600 4350 5600
+Wire Wire Line
+	2950 5600 2950 4550
+Wire Wire Line
+	2950 4550 3250 4550
+Connection ~ 7800 5950
+Connection ~ 9250 5150
+Connection ~ 9050 5950
+Wire Wire Line
+	9250 4600 9250 5950
+Connection ~ 7800 5150
+Wire Wire Line
+	8050 5150 7800 5150
+Connection ~ 8700 5750
+Connection ~ 8700 5950
+Wire Wire Line
+	8700 5950 8700 4600
+Wire Wire Line
+	8700 5150 8550 5150
+Wire Wire Line
+	8700 5750 8550 5750
+Connection ~ 8300 5350
+Wire Wire Line
+	8550 5350 8050 5350
+Connection ~ 8300 4750
+Wire Wire Line
+	8300 5350 8300 3700
+Connection ~ 8800 4200
+Wire Wire Line
+	8800 4200 9050 4200
+Connection ~ 8800 3700
+Wire Wire Line
+	8800 3700 8800 5350
+Connection ~ 8550 3700
+Wire Wire Line
+	9050 4200 9050 3700
+Wire Wire Line
+	9050 3700 8050 3700
+Wire Wire Line
+	8550 3700 8550 4200
+Wire Wire Line
+	6250 3750 6250 4200
+Connection ~ 3450 3700
+Wire Wire Line
+	3250 5000 3450 5000
+Wire Wire Line
+	3450 5000 3450 3700
+Wire Wire Line
+	3650 3700 3650 4600
+Wire Wire Line
+	3250 4150 3250 3700
+Wire Wire Line
+	3650 2850 3650 3200
+Wire Wire Line
+	3250 3700 4100 3700
+Wire Wire Line
+	4100 3700 4100 4150
+Connection ~ 3650 3700
+Wire Wire Line
+	3850 3700 3850 5000
+Wire Wire Line
+	3850 5000 4100 5000
+Connection ~ 3850 3700
+Wire Wire Line
+	6250 3250 6250 2850
+Wire Wire Line
+	6250 4200 6000 4200
+Wire Wire Line
+	6000 4200 6000 4850
+Wire Wire Line
+	6000 4850 6250 4850
+Wire Wire Line
+	8050 3700 8050 4200
+Wire Wire Line
+	8800 5350 9050 5350
+Wire Wire Line
+	9050 4750 8800 4750
+Connection ~ 8800 4750
+Connection ~ 8300 3700
+Wire Wire Line
+	8550 4750 8050 4750
+Wire Wire Line
+	8050 4600 7800 4600
+Wire Wire Line
+	7800 4600 7800 5950
+Wire Wire Line
+	9050 5950 9050 5750
+Wire Wire Line
+	8700 4600 8550 4600
+Connection ~ 8700 5150
+Wire Wire Line
+	8050 5750 7800 5750
+Connection ~ 7800 5750
+Wire Wire Line
+	9250 4600 9050 4600
+Wire Wire Line
+	9250 5150 9050 5150
+Wire Wire Line
+	6250 4600 6450 4600
+Wire Wire Line
+	6450 5250 6250 5250
+Wire Wire Line
+	4100 4550 4350 4550
+Wire Wire Line
+	4350 4550 4350 5600
+Wire Wire Line
+	3250 5600 3250 5400
+Wire Wire Line
+	4100 5400 4100 5600
+Connection ~ 4100 5600
+Wire Wire Line
+	3650 5000 3650 5950
+Wire Wire Line
+	8550 2100 8550 2400
+Wire Wire Line
+	3650 2100 3650 2450
+Connection ~ 6250 2100
+Wire Wire Line
+	8550 2800 8550 3200
+Wire Wire Line
+	6450 4600 6450 6400
+Wire Wire Line
+	3650 5950 9250 5950
+Wire Wire Line
+	5950 2650 5350 2650
+Text HLabel 2700 2650 0    60   Input
+Off Target Light
+Text HLabel 5350 2650 0    60   Input
+Ground Light
+Text HLabel 7700 2600 0    60   Input
+Score Light
+$Comp
+L +5V #PWR042
+U 1 1 489921DE
+P 6250 1800
+AR Path="/4899158D/48A9F29E/489921DE" Ref="#PWR042"  Part="1" 
+AR Path="/4899158D/489A2B75/489921DE" Ref="#PWR044"  Part="1" 
+F 0 "#PWR044" H 6250 1890 20  0001 C C
+F 1 "+5V" H 6250 1890 30  0000 C C
+	1    6250 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR043
+U 1 1 489921C8
+P 6450 6400
+AR Path="/4899158D/48A9F29E/489921C8" Ref="#PWR043"  Part="1" 
+AR Path="/4899158D/489A2B75/489921C8" Ref="#PWR045"  Part="1" 
+F 0 "#PWR045" H 6450 6400 30  0001 C C
+F 1 "GND" H 6450 6330 30  0001 C C
+	1    6450 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R30
+U 1 1 489920C8
+P 8550 3450
+AR Path="/4899158D/48A9F29E/489920C8" Ref="R30"  Part="1" 
+AR Path="/4899158D/489A2B75/489920C8" Ref="R27"  Part="1" 
+F 0 "R30" V 8630 3450 50  0000 C C
+F 1 "R" V 8550 3450 50  0000 C C
+	1    8550 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R29
+U 1 1 489920C0
+P 6250 3500
+AR Path="/4899158D/48A9F29E/489920C0" Ref="R29"  Part="1" 
+AR Path="/4899158D/489A2B75/489920C0" Ref="R26"  Part="1" 
+F 0 "R29" V 6330 3500 50  0000 C C
+F 1 "R" V 6250 3500 50  0000 C C
+	1    6250 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R28
+U 1 1 489920BC
+P 3650 3450
+AR Path="/4899158D/48A9F29E/489920BC" Ref="R28"  Part="1" 
+AR Path="/4899158D/489A2B75/489920BC" Ref="R25"  Part="1" 
+F 0 "R28" V 3730 3450 50  0000 C C
+F 1 "R" V 3650 3450 50  0000 C C
+	1    3650 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L NPN Q12
+U 1 1 4899209E
+P 3550 2650
+AR Path="/4899158D/48A9F29E/4899209E" Ref="Q12"  Part="1" 
+AR Path="/4899158D/489A2B75/4899209E" Ref="Q9"  Part="1" 
+F 0 "Q12" H 3700 2650 50  0000 C C
+F 1 "NPN" H 3452 2800 50  0000 C C
+	1    3550 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L NPN Q13
+U 1 1 48992094
+P 6150 2650
+AR Path="/4899158D/48A9F29E/48992094" Ref="Q13"  Part="1" 
+AR Path="/4899158D/489A2B75/48992094" Ref="Q10"  Part="1" 
+F 0 "Q13" H 6300 2650 50  0000 C C
+F 1 "NPN" H 6052 2800 50  0000 C C
+	1    6150 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L NPN Q14
+U 1 1 4899208B
+P 8450 2600
+AR Path="/4899158D/48A9F29E/4899208B" Ref="Q14"  Part="1" 
+AR Path="/4899158D/489A2B75/4899208B" Ref="Q11"  Part="1" 
+F 0 "Q14" H 8600 2600 50  0000 C C
+F 1 "NPN" H 8352 2750 50  0000 C C
+	1    8450 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D42
+U 1 1 4899206E
+P 9050 5550
+AR Path="/4899158D/48A9F29E/4899206E" Ref="D42"  Part="1" 
+AR Path="/4899158D/489A2B75/4899206E" Ref="D26"  Part="1" 
+F 0 "D42" H 9050 5650 50  0000 C C
+F 1 "LED" H 9050 5450 50  0000 C C
+	1    9050 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D39
+U 1 1 4899206D
+P 8550 5550
+AR Path="/4899158D/48A9F29E/4899206D" Ref="D39"  Part="1" 
+AR Path="/4899158D/489A2B75/4899206D" Ref="D23"  Part="1" 
+F 0 "D39" H 8550 5650 50  0000 C C
+F 1 "LED" H 8550 5450 50  0000 C C
+	1    8550 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D36
+U 1 1 4899206C
+P 8050 5550
+AR Path="/4899158D/48A9F29E/4899206C" Ref="D36"  Part="1" 
+AR Path="/4899158D/489A2B75/4899206C" Ref="D20"  Part="1" 
+F 0 "D36" H 8050 5650 50  0000 C C
+F 1 "LED" H 8050 5450 50  0000 C C
+	1    8050 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D41
+U 1 1 48992065
+P 9050 4950
+AR Path="/4899158D/48A9F29E/48992065" Ref="D41"  Part="1" 
+AR Path="/4899158D/489A2B75/48992065" Ref="D25"  Part="1" 
+F 0 "D41" H 9050 5050 50  0000 C C
+F 1 "LED" H 9050 4850 50  0000 C C
+	1    9050 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D38
+U 1 1 48992064
+P 8550 4950
+AR Path="/4899158D/48A9F29E/48992064" Ref="D38"  Part="1" 
+AR Path="/4899158D/489A2B75/48992064" Ref="D22"  Part="1" 
+F 0 "D38" H 8550 5050 50  0000 C C
+F 1 "LED" H 8550 4850 50  0000 C C
+	1    8550 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D35
+U 1 1 48992063
+P 8050 4950
+AR Path="/4899158D/48A9F29E/48992063" Ref="D35"  Part="1" 
+AR Path="/4899158D/489A2B75/48992063" Ref="D19"  Part="1" 
+F 0 "D35" H 8050 5050 50  0000 C C
+F 1 "LED" H 8050 4850 50  0000 C C
+	1    8050 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D31
+U 1 1 48992017
+P 4100 5200
+AR Path="/4899158D/48A9F29E/48992017" Ref="D31"  Part="1" 
+AR Path="/4899158D/489A2B75/48992017" Ref="D15"  Part="1" 
+F 0 "D31" H 4100 5300 50  0000 C C
+F 1 "LED" H 4100 5100 50  0000 C C
+	1    4100 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D28
+U 1 1 48992016
+P 3250 5200
+AR Path="/4899158D/48A9F29E/48992016" Ref="D28"  Part="1" 
+AR Path="/4899158D/489A2B75/48992016" Ref="D12"  Part="1" 
+F 0 "D28" H 3250 5300 50  0000 C C
+F 1 "LED" H 3250 5100 50  0000 C C
+	1    3250 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D33
+U 1 1 4899200C
+P 6250 5050
+AR Path="/4899158D/48A9F29E/4899200C" Ref="D33"  Part="1" 
+AR Path="/4899158D/489A2B75/4899200C" Ref="D17"  Part="1" 
+F 0 "D33" H 6250 5150 50  0000 C C
+F 1 "LED" H 6250 4950 50  0000 C C
+	1    6250 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D32
+U 1 1 48992009
+P 6250 4400
+AR Path="/4899158D/48A9F29E/48992009" Ref="D32"  Part="1" 
+AR Path="/4899158D/489A2B75/48992009" Ref="D16"  Part="1" 
+F 0 "D32" H 6250 4500 50  0000 C C
+F 1 "LED" H 6250 4300 50  0000 C C
+	1    6250 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D29
+U 1 1 48992004
+P 3650 4800
+AR Path="/4899158D/48A9F29E/48992004" Ref="D29"  Part="1" 
+AR Path="/4899158D/489A2B75/48992004" Ref="D13"  Part="1" 
+F 0 "D29" H 3650 4900 50  0000 C C
+F 1 "LED" H 3650 4700 50  0000 C C
+	1    3650 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D30
+U 1 1 48992000
+P 4100 4350
+AR Path="/4899158D/48A9F29E/48992000" Ref="D30"  Part="1" 
+AR Path="/4899158D/489A2B75/48992000" Ref="D14"  Part="1" 
+F 0 "D30" H 4100 4450 50  0000 C C
+F 1 "LED" H 4100 4250 50  0000 C C
+	1    4100 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D27
+U 1 1 48991FFA
+P 3250 4350
+AR Path="/4899158D/48A9F29E/48991FFA" Ref="D27"  Part="1" 
+AR Path="/4899158D/489A2B75/48991FFA" Ref="D11"  Part="1" 
+F 0 "D27" H 3250 4450 50  0000 C C
+F 1 "LED" H 3250 4250 50  0000 C C
+	1    3250 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D40
+U 1 1 48991FEF
+P 9050 4400
+AR Path="/4899158D/48A9F29E/48991FEF" Ref="D40"  Part="1" 
+AR Path="/4899158D/489A2B75/48991FEF" Ref="D24"  Part="1" 
+F 0 "D40" H 9050 4500 50  0000 C C
+F 1 "LED" H 9050 4300 50  0000 C C
+	1    9050 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D37
+U 1 1 48991FE8
+P 8550 4400
+AR Path="/4899158D/48A9F29E/48991FE8" Ref="D37"  Part="1" 
+AR Path="/4899158D/489A2B75/48991FE8" Ref="D21"  Part="1" 
+F 0 "D37" H 8550 4500 50  0000 C C
+F 1 "LED" H 8550 4300 50  0000 C C
+	1    8550 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D34
+U 1 1 48991FE3
+P 8050 4400
+AR Path="/4899158D/48A9F29E/48991FE3" Ref="D34"  Part="1" 
+AR Path="/4899158D/489A2B75/48991FE3" Ref="D18"  Part="1" 
+F 0 "D34" H 8050 4500 50  0000 C C
+F 1 "LED" H 8050 4300 50  0000 C C
+	1    8050 4400
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC

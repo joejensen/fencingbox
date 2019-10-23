@@ -1,0 +1,11 @@
+The files in this folder have been released into the public domain
+by the qextserialport project on sourceforge.
+
+http://qextserialport.sourceforge.net/
+
+They should be periodically updated and any changes integrated with
+the rest of the JBox project.  Currently their support for linux
+serial port enumeration is limited, and in turn limits us. I encourage
+anyone with the appropriate knowledge to help them fix this to
+contribute to their project.
+
